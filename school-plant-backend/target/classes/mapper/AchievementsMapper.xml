@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.schoolplant.mapper.AchievementMapper">
+
+    <!-- 通用查询映射结果 -->
+    <resultMap id="BaseResultMap" type="com.schoolplant.entity.Achievement">
+        <id column="id" property="id" />
+        <result column="user_id" property="userId" />
+        <result column="plant_id" property="plantId" />
+        <result column="adoption_start_date" property="adoptionStartDate" />
+        <result column="adoption_end_date" property="adoptionEndDate" />
+        <result column="tasks_completed" property="tasksCompleted" />
+        <result column="total_tasks" property="totalTasks" />
+        <result column="task_completion_rate" property="taskCompletionRate" />
+        <result column="plant_health_score" property="plantHealthScore" />
+        <result column="is_outstanding" property="isOutstanding" />
+        <result column="certificate_url" property="certificateUrl" />
+        <result column="semester" property="semester" />
+        <result column="created_at" property="createdAt" />
+        <result column="updated_at" property="updatedAt" />
+    </resultMap>
+
+</mapper>

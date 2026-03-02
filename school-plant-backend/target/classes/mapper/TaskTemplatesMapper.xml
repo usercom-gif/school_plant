@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.schoolplant.mapper.TaskTemplateMapper">
+
+    <!-- 通用查询映射结果 -->
+    <resultMap id="BaseResultMap" type="com.schoolplant.entity.TaskTemplate">
+        <id column="id" property="id" />
+        <result column="plant_species" property="plantSpecies" />
+        <result column="task_type" property="taskType" />
+        <result column="task_description" property="taskDescription" />
+        <result column="frequency_days" property="frequencyDays" />
+        <result column="duration_minutes" property="durationMinutes" />
+        <result column="seasonality" property="seasonality" />
+        <result column="created_at" property="createdAt" />
+        <result column="updated_at" property="updatedAt" />
+    </resultMap>
+
+</mapper>

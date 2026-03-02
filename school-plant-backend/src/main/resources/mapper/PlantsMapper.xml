@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.schoolplant.mapper.PlantMapper">
+
+    <!-- 通用查询映射结果 -->
+    <resultMap id="BaseResultMap" type="com.schoolplant.entity.Plant">
+        <id column="id" property="id" />
+        <result column="plant_code" property="plantCode" />
+        <result column="name" property="name" />
+        <result column="species" property="species" />
+        <result column="family" property="family" />
+        <result column="location_description" property="locationDescription" />
+        <result column="region" property="region" />
+        <result column="care_difficulty" property="careDifficulty" />
+        <result column="status" property="status" />
+        <result column="planting_year" property="plantingYear" />
+        <result column="light_requirement" property="lightRequirement" />
+        <result column="water_requirement" property="waterRequirement" />
+        <result column="description" property="description" />
+        <result column="image_urls" property="imageUrls" />
+        <result column="created_by" property="createdBy" />
+        <result column="created_at" property="createdAt" />
+        <result column="updated_at" property="updatedAt" />
+        <result column="deleted_at" property="deletedAt" />
+        <result column="number" property="number" />
+        <result column="user_real_name" property="userRealName" />
+        <result column="user_phone" property="userPhone" />
+    </resultMap>
+
+</mapper>

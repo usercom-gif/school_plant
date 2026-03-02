@@ -1,0 +1,1 @@
+import{s as e}from"./request-CZa6cTQd.js";function u(){return e({url:"/user/profile",method:"get"})}function s(r){return e({url:"/user/profile",method:"put",data:r})}function o(r){return e({url:"/user/password",method:"put",data:r})}export{o as a,u as g,s as u};
